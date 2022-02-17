@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.css">
+
 </head>
 <body>
     <nav>
@@ -20,8 +22,31 @@
         </ul>
     </nav>
 
-    <footer class="footer">
-        <p>&copy; Poopy poop</p>
+    <div>
+        <h1 id="contactheader">Contact me here and I certainly will not respond to you!</h1>
+    </div>
+
+    <div class="contactform">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="What do you need.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+    </div>
+    
+    <footer id="contactfooter">
+        <p class="footercontent">&copy; Poopy poop</p>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram footercontent socialmedia"></i></a>
+        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter footercontent socialmedia"></i></a>
     </footer>
 </body>
 </html>
